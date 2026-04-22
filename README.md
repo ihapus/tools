@@ -1,6 +1,6 @@
-# ihapus pub
+﻿# ihapus tools
 
-`pub` is the public distribution repository for the `ihapus` tool collection.
+`tools` is the public distribution repository for the `ihapus` tool collection.
 
 This repository is intentionally separate from the private source repository
 `utils`. It is used to host public-facing documentation, release notes, license
@@ -10,7 +10,7 @@ files, and binary release assets.
 
 ### ImageBatcher
 - Project page: `ImageBatcher/README.md`
-- Releases: `https://github.com/ihapus/pub/releases`
+- Releases: `https://github.com/ihapus/tools/releases`
 - Status: preparing initial public release
 
 More tools can be added later under their own subdirectories.
@@ -18,7 +18,7 @@ More tools can be added later under their own subdirectories.
 ## Repository layout
 
 ```text
-pub/
+tools/
   README.md
   ImageBatcher/
     README.md

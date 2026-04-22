@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ImageBatcher - Windows batch image resizer and compressor</title>
+  <meta name="description" content="ImageBatcher is a Windows batch image resizer and compressor for JPG and PNG workflows, including e-commerce image sizing and routine batch processing.">
+  <link rel="canonical" href="https://ihapus.github.io/tools/imagebatcher/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ImageBatcher",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Windows",
+    "description": "Windows batch image resizer and compressor for JPG and PNG workflows.",
+    "downloadUrl": "https://github.com/ihapus/tools/releases",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f9fc;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #56637c;
+      --accent: #1558c0;
+      --accent-soft: #e0ebff;
+      --border: #d6dfef;
+      --shadow: 0 16px 36px rgba(23, 32, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at top left, #eaf1ff 0%, var(--bg) 42%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 64px;
+    }
+    .toplink {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: 1.3fr 0.9fr;
+      align-items: start;
+    }
+    .hero-card, .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+    .hero-copy {
+      padding: 30px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    h1, h2, h3 {
+      line-height: 1.15;
+      margin: 0 0 14px;
+    }
+    h1 {
+      font-size: clamp(34px, 5vw, 52px);
+    }
+    .subtitle {
+      font-size: 19px;
+      color: var(--muted);
+      max-width: 650px;
+      margin-bottom: 24px;
+    }
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .button.secondary {
+      background: #fff;
+      color: var(--accent);
+      border-color: var(--border);
+    }
+    .panel {
+      padding: 24px;
+    }
+    .facts {
+      display: grid;
+      gap: 14px;
+    }
+    .fact {
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .fact:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      margin-top: 24px;
+    }
+    section {
+      margin-top: 42px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .faq p {
+      margin: 0 0 14px;
+    }
+    .download-box {
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+      margin-top: 16px;
+    }
+    @media (max-width: 860px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="toplink" href="../">Back to ihapus tools</a>
+
+    <section class="hero">
+      <article class="hero-card hero-copy">
+        <div class="eyebrow">Windows batch image tool</div>
+        <h1>ImageBatcher</h1>
+        <p class="subtitle">Batch resize and compress images on Windows for e-commerce workflows, social media prep, and routine JPG or PNG cleanup.</p>
+        <p>ImageBatcher is built for users who regularly need to resize images to specific dimensions, lower file size, and export processed files in one pass without opening an editor image by image.</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/ihapus/tools/releases">Download the latest release</a>
+          <a class="button secondary" href="https://github.com/ihapus/tools/tree/main/ImageBatcher">View GitHub docs</a>
+        </div>
+        <div class="download-box">
+          <strong>Best for:</strong> batch resize images on Windows, compress JPG and PNG files, prepare image sets for listings, and standardize output before upload.
+        </div>
+      </article>
+
+      <aside class="panel">
+        <h2>Quick facts</h2>
+        <div class="facts">
+          <div class="fact">
+            <div class="label">Platform</div>
+            <div>Windows desktop</div>
+          </div>
+          <div class="fact">
+            <div class="label">Typical tasks</div>
+            <div>Batch resize, batch compression, preset-based export</div>
+          </div>
+          <div class="fact">
+            <div class="label">Input workflow</div>
+            <div>Drag and drop images or add files and folders manually</div>
+          </div>
+          <div class="fact">
+            <div class="label">Download</div>
+            <div><a href="https://github.com/ihapus/tools/releases">GitHub Releases</a></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section>
+      <h2>What ImageBatcher helps with</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Batch resize images</h3>
+          <p>Resize multiple files to preset or custom dimensions without editing each file individually.</p>
+        </article>
+        <article class="card">
+          <h3>Compress output size</h3>
+          <p>Adjust quality settings to reduce file size for upload, delivery, or storage workflows.</p>
+        </article>
+        <article class="card">
+          <h3>Prepare listings faster</h3>
+          <p>Useful for product images, marketplace uploads, and content libraries that need consistent output.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Main features</h2>
+      <div class="grid">
+        <article class="card">
+          <ul>
+            <li>Batch import images and folders</li>
+            <li>Preset and custom width and height settings</li>
+            <li>Quality adjustment for processed output</li>
+          </ul>
+        </article>
+        <article class="card">
+          <ul>
+            <li>Progress feedback during processing</li>
+            <li>Output directory selection</li>
+            <li>Result log after processing completes</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>System requirements</h2>
+      <article class="card">
+        <ul>
+          <li>Windows 10 or later</li>
+          <li>Enough disk space for both source files and exported results</li>
+          <li>Use the packaged installer from GitHub Releases for the expected runtime files</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="faq">
+      <h2>FAQ</h2>
+      <article class="card">
+        <h3>Where do I download ImageBatcher?</h3>
+        <p>Download the latest installer from <a href="https://github.com/ihapus/tools/releases">GitHub Releases</a>.</p>
+        <h3>What image workflow is this designed for?</h3>
+        <p>It is designed for Windows users who frequently need batch image resizing and compression for repeated export tasks.</p>
+        <h3>Is the source code published here?</h3>
+        <p>No. This public repository contains release information and public-facing documentation. Source code is maintained separately.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

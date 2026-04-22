@@ -1,4 +1,4 @@
-# ImageBatcher
+﻿# ImageBatcher
 
 `ImageBatcher` is a Windows desktop utility for batch image resizing and compression.
 
@@ -11,7 +11,7 @@ release. Source code is maintained separately in the private `utils` repository.
 - Binary release assets will be published via GitHub Releases
 
 Release page:
-- `https://github.com/ihapus/pub/releases`
+- `https://github.com/ihapus/tools/releases`
 
 ## Features
 
