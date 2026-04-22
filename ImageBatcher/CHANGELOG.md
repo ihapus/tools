@@ -1,7 +1,9 @@
-# Changelog
+﻿# Changelog
 
 ## 1.0.0
 
-- Initial public release preparation
+- First official public release
 - Windows installer packaging based on the current `bin/` packaging flow
-- Added proprietary license and third-party notice files for public distribution
+- Batch image resizing with preset or custom dimensions
+- Batch image compression for JPG and PNG workflows
+- Public product page, release notes, and third-party notice files prepared for distribution
