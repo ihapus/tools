@@ -1,0 +1,32 @@
+THIRD-PARTY COMPONENT NOTICES
+ImageBatcher
+
+This product is proprietary software distributed by ihapus.
+It also uses third-party components that remain subject to their own license terms.
+Your rights in those third-party components are governed by the applicable third-party licenses, not by the proprietary LICENSE for ImageBatcher.
+
+1. Qt
+- Project: Qt
+- Website: https://www.qt.io/
+- Used for: GUI, widgets, platform integration, and related runtime libraries
+- License: GNU Lesser General Public License (LGPL), as distributed by The Qt Company, plus applicable Qt exceptions or alternative commercial terms from the original vendor
+- Distribution note: This product is distributed using Qt under the LGPL option. Nothing in the ihapus LICENSE restricts any rights granted to you by the LGPL with respect to the Qt libraries bundled with this product.
+- Source and license information:
+  https://www.qt.io/licensing/
+  https://doc.qt.io/
+
+2. nlohmann/json
+- Project: JSON for Modern C++
+- Website: https://github.com/nlohmann/json
+- Used for: JSON parsing and serialization
+- License: MIT License
+
+3. stb
+- Project: stb single-file public domain libraries
+- Website: https://github.com/nothings/stb
+- Used for: image loading, resizing, and writing
+- License: Public domain or MIT License, as offered by the upstream project
+
+Additional notes
+- This notice file is provided for attribution and high-level license disclosure.
+- If you redistribute the Build Artifacts, keep this file together with the bundled LICENSE and any other required notices.
