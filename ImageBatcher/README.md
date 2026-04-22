@@ -1,32 +1,37 @@
 ﻿# ImageBatcher
 
-`ImageBatcher` is a Windows desktop utility for batch image resizing and compression.
+`ImageBatcher` is a Windows batch image resizer and compressor.
 
-This directory contains the public-facing documentation for the `ImageBatcher`
-release. Source code is maintained separately in the private `utils` repository.
+It is intended for repeated image processing tasks such as resizing product images,
+compressing JPG and PNG files, and preparing batches of images for upload.
 
-## Status
+Public product page:
+- `https://ihapus.github.io/tools/imagebatcher/`
 
-- Public release repository prepared
-- Binary release assets will be published via GitHub Releases
-
-Release page:
+Release downloads:
 - `https://github.com/ihapus/tools/releases`
 
-## Features
+## What it does
 
-- Batch import images or folders
-- Resize by preset or custom size
-- Adjust output quality
-- Drag and drop workflow
-- Export processed images to the selected output directory
+- Batch import image files and folders
+- Resize images with presets or custom dimensions
+- Compress output quality for repeated export workflows
+- Export processed files to a chosen output directory
+- Support drag and drop input on Windows desktop
+
+## Common use cases
+
+- Batch resize product listing images
+- Compress JPG and PNG files before upload
+- Standardize image dimensions for marketplace workflows
+- Prepare image sets for content and social publishing
 
 ## System requirements
 
 - Windows 10 or later
-- Sufficient disk space for input and output images
+- Enough disk space for source files and exported results
 
-## Package contents
+## Public package contents
 
 Each public release should include:
 - installer executable
@@ -40,7 +45,8 @@ Each public release should include:
 - redistribution of build artifacts must follow `LICENSE`
 - third-party components remain under their own licenses
 
-See:
+See also:
+- Product page: `https://ihapus.github.io/tools/imagebatcher/`
 - `LICENSE`
 - `THIRD_PARTY_NOTICES.txt`
 - `CHANGELOG.md`

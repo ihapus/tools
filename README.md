@@ -2,24 +2,36 @@
 
 `tools` is the public distribution repository for the `ihapus` tool collection.
 
-This repository is intentionally separate from the private source repository
-`utils`. It is used to host public-facing documentation, release notes, license
-files, and binary release assets.
+This repository hosts public-facing product pages, release notes, license files,
+and binary downloads for lightweight Windows utilities maintained by `ihapus`.
+
+Website:
+- `https://ihapus.github.io/tools/`
+
+Releases:
+- `https://github.com/ihapus/tools/releases`
 
 ## Available tools
 
-### ImageBatcher
-- Project page: `ImageBatcher/README.md`
-- Releases: `https://github.com/ihapus/tools/releases`
-- Status: preparing initial public release
+| Tool | What it does | Platform | Download | Docs |
+|------|--------------|----------|----------|------|
+| ImageBatcher | Batch resize and compress JPG and PNG images for Windows workflows | Windows | [Latest releases](https://github.com/ihapus/tools/releases) | [Product page](https://ihapus.github.io/tools/imagebatcher/) |
 
-More tools can be added later under their own subdirectories.
+## Why this repository exists
+
+- public downloads stay separate from private source code
+- each tool gets its own public-facing documentation
+- GitHub Releases remain the primary download channel
+- GitHub Pages provides searchable product pages and release entry points
 
 ## Repository layout
 
 ```text
 tools/
   README.md
+  docs/
+    index.html
+    imagebatcher/
   ImageBatcher/
     README.md
     CHANGELOG.md
@@ -27,9 +39,12 @@ tools/
     THIRD_PARTY_NOTICES.txt
 ```
 
-## Principles
+## Current focus
 
-- No private source code is published here
-- Each tool has its own public-facing folder
-- Release assets are attached to GitHub Releases
-- License and third-party notices travel with each released tool
+### ImageBatcher
+- Windows batch image resizer and compressor
+- useful for e-commerce image prep, JPG/PNG compression, and repeated export tasks
+- public product page: `https://ihapus.github.io/tools/imagebatcher/`
+- release downloads: `https://github.com/ihapus/tools/releases`
+
+More tools can be added later using the same structure.
