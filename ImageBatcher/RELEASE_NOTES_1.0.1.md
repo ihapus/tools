@@ -17,7 +17,6 @@ ImageBatcher is a Windows batch image resizer and compressor for common image wo
 - `THIRD_PARTY_NOTICES.txt`
 
 ## Changes since 1.0.0
-- Runtime settings now save to `%APPDATA%/ihapus/ImageBatcher/settings.ini` instead of the installation directory.
 - The installer now includes Qt image format plugins under `imageformats`.
 - Image import support is expanded through Qt plugins, including JPG, PNG, BMP, TIFF, WebP, GIF, ICO, TGA, and WBMP workflows.
 - Output format handling is clearer for Preserve, JPG, PNG, and WebP modes.

@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ImageBatcher - Windows batch image resizer and compressor</title>
-  <meta name="description" content="ImageBatcher is a Windows batch image resizer and compressor for JPG and PNG workflows, including e-commerce image sizing and routine batch processing.">
-  <meta property="og:title" content="ImageBatcher - Windows batch image resizer and compressor">
-  <meta property="og:description" content="Batch resize and compress images on Windows with direct GitHub Release downloads.">
+  <title>ImageBatcher - Windows batch image resizer, compressor, and format converter</title>
+  <meta name="description" content="ImageBatcher is a Windows batch image resizer and compressor with preset sizing, resize modes, conflict rules, and practical import support for JPG, PNG, BMP, TIFF, WebP, GIF, ICO, TGA, and WBMP files.">
+  <meta property="og:title" content="ImageBatcher - Windows batch image resizer, compressor, and format converter">
+  <meta property="og:description" content="Batch resize, compress, and export images on Windows with direct GitHub Release downloads.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ihapus.github.io/tools/imagebatcher/">
   <meta property="og:image" content="https://ihapus.github.io/tools/assets/imagebatcher-og.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ImageBatcher - Windows batch image resizer and compressor">
-  <meta name="twitter:description" content="Batch resize and compress images on Windows with direct GitHub Release downloads.">
+  <meta name="twitter:title" content="ImageBatcher - Windows batch image resizer, compressor, and format converter">
+  <meta name="twitter:description" content="Batch resize, compress, and export images on Windows with direct GitHub Release downloads.">
   <link rel="canonical" href="https://ihapus.github.io/tools/imagebatcher/">
   <script type="application/ld+json">
   {
@@ -21,8 +21,9 @@
     "name": "ImageBatcher",
     "applicationCategory": "UtilitiesApplication",
     "operatingSystem": "Windows",
-    "description": "Windows batch image resizer and compressor for JPG and PNG workflows.",
-    "downloadUrl": "https://github.com/ihapus/tools/releases",
+    "description": "Windows batch image resizer and compressor with practical support for common image import formats and direct GitHub Release downloads.",
+    "softwareVersion": "1.0.1",
+    "downloadUrl": "https://github.com/ihapus/tools/releases/tag/v1.0.1",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -146,6 +147,23 @@
       padding-left: 16px;
       margin-top: 16px;
     }
+    .release-note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .feature-list {
+      display: grid;
+      gap: 10px;
+    }
+    .feature-list div {
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .feature-list div:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
     @media (max-width: 860px) {
       .hero { grid-template-columns: 1fr; }
     }
@@ -160,15 +178,16 @@
       <article class="hero-card hero-copy">
         <div class="eyebrow">Windows batch image tool</div>
         <h1>ImageBatcher</h1>
-        <p class="subtitle">Batch resize and compress images on Windows for e-commerce workflows, social media prep, and routine JPG or PNG cleanup.</p>
-        <p>ImageBatcher is built for users who regularly need to resize images to specific dimensions, lower file size, and export processed files in one pass without opening an editor image by image.</p>
+        <p class="subtitle">Batch resize, compress, and export images on Windows with presets, resize modes, conflict rules, and practical support for common web and desktop image formats.</p>
+        <p>ImageBatcher is built for users who repeatedly need to standardize image size, reduce file size, and export a processed batch in one pass without opening an editor image by image.</p>
         <div class="actions">
-          <a class="button" href="https://github.com/ihapus/tools/releases">Download the latest release</a>
-          <a class="button secondary" href="https://github.com/ihapus/tools/tree/main/ImageBatcher">View GitHub docs</a>
+          <a class="button" href="https://github.com/ihapus/tools/releases/tag/v1.0.1">Download v1.0.1</a>
+          <a class="button secondary" href="https://github.com/ihapus/tools/releases/tag/v1.0.1">View release notes</a>
         </div>
         <div class="download-box">
-          <strong>Best for:</strong> batch resize images on Windows, compress JPG and PNG files, prepare image sets for listings, and standardize output before upload.
+          <strong>Best for:</strong> batch resize images on Windows, compress upload assets, convert output to JPG, PNG, or WebP, prepare listing images, and standardize repeated export workflows.
         </div>
+        <p class="release-note">Latest public release: <strong>v1.0.1</strong>, published on <strong>April 23, 2026</strong>.</p>
       </article>
 
       <aside class="panel">
@@ -180,15 +199,19 @@
           </div>
           <div class="fact">
             <div class="label">Typical tasks</div>
-            <div>Batch resize, batch compression, preset-based export</div>
+            <div>Batch resize, batch compression, preset-based export, output format cleanup</div>
           </div>
           <div class="fact">
-            <div class="label">Input workflow</div>
-            <div>Drag and drop images or add files and folders manually</div>
+            <div class="label">Import support</div>
+            <div>JPG, PNG, BMP, TIFF, WebP, GIF, ICO, TGA, and WBMP workflows</div>
+          </div>
+          <div class="fact">
+            <div class="label">Output choices</div>
+            <div>Preserve original format, or export as JPG, PNG, or WebP</div>
           </div>
           <div class="fact">
             <div class="label">Download</div>
-            <div><a href="https://github.com/ihapus/tools/releases">GitHub Releases</a></div>
+            <div><a href="https://github.com/ihapus/tools/releases/tag/v1.0.1">GitHub Release v1.0.1</a></div>
           </div>
         </div>
       </aside>
@@ -206,8 +229,8 @@
           <p>Adjust quality settings to reduce file size for upload, delivery, or storage workflows.</p>
         </article>
         <article class="card">
-          <h3>Prepare listings faster</h3>
-          <p>Useful for product images, marketplace uploads, and content libraries that need consistent output.</p>
+          <h3>Keep repeated exports predictable</h3>
+          <p>Useful for listing images, marketplace uploads, content libraries, and batches that need repeatable output rules.</p>
         </article>
       </div>
     </section>
@@ -216,18 +239,56 @@
       <h2>Main features</h2>
       <div class="grid">
         <article class="card">
+          <div class="feature-list">
+            <div><strong>Batch input:</strong> add images, add folders, or drag and drop files directly into the app.</div>
+            <div><strong>Resize control:</strong> use presets or custom dimensions with fit, fill crop, stretch, and no-upscale modes.</div>
+            <div><strong>Output control:</strong> preserve original format or export to JPG, PNG, or WebP.</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="feature-list">
+            <div><strong>Conflict rules:</strong> auto rename, overwrite, or skip existing files.</div>
+            <div><strong>Processing feedback:</strong> progress bar, per-file result log, and batch statistics after completion.</div>
+            <div><strong>Remembered settings:</strong> the app restores your last-used options on the same Windows account.</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>What changed in v1.0.1</h2>
+      <div class="grid">
+        <article class="card">
           <ul>
-            <li>Batch import images and folders</li>
-            <li>Preset and custom width and height settings</li>
-            <li>Quality adjustment for processed output</li>
+            <li>Settings are now stored under the user profile instead of the install directory.</li>
+            <li>The installer now bundles Qt image format plugins under `imageformats`.</li>
+            <li>Import support is expanded for practical desktop workflows beyond basic JPG and PNG only.</li>
           </ul>
         </article>
         <article class="card">
           <ul>
-            <li>Progress feedback during processing</li>
-            <li>Output directory selection</li>
-            <li>Result log after processing completes</li>
+            <li>Preserve output mode behaves more predictably with clearer fallback handling.</li>
+            <li>The interface now supports dark and light themes, resize mode radios, conflict rules, and result statistics.</li>
+            <li>The product page and release notes are aligned with the current 1.0.1 behavior.</li>
           </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Typical workflow</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>1. Add images</h3>
+          <p>Drop files into the window or add images and folders manually from Windows Explorer.</p>
+        </article>
+        <article class="card">
+          <h3>2. Choose output rules</h3>
+          <p>Select a preset or dimensions, then choose resize mode, output format, quality, and conflict behavior.</p>
+        </article>
+        <article class="card">
+          <h3>3. Process and review</h3>
+          <p>Run the batch, review the result log and compression statistics, then open the output folder directly.</p>
         </article>
       </div>
     </section>
@@ -265,7 +326,7 @@
         <ul>
           <li>Windows 10 or later</li>
           <li>Enough disk space for both source files and exported results</li>
-          <li>Use the packaged installer from GitHub Releases for the expected runtime files</li>
+          <li>Use the packaged installer from GitHub Releases so the expected Qt runtime and image format plugins are included</li>
         </ul>
       </article>
     </section>
@@ -274,9 +335,13 @@
       <h2>FAQ</h2>
       <article class="card">
         <h3>Where do I download ImageBatcher?</h3>
-        <p>Download the latest installer from <a href="https://github.com/ihapus/tools/releases">GitHub Releases</a>.</p>
+        <p>Download the current public installer from <a href="https://github.com/ihapus/tools/releases/tag/v1.0.1">GitHub Release v1.0.1</a> or browse all packages on <a href="https://github.com/ihapus/tools/releases">GitHub Releases</a>.</p>
+        <h3>What formats does it support?</h3>
+        <p>Current practical import coverage includes JPG, PNG, BMP, TIFF, WebP, GIF, ICO, TGA, and WBMP workflows. Output modes in the app are Preserve, JPG, PNG, and WebP.</p>
         <h3>What image workflow is this designed for?</h3>
-        <p>It is designed for Windows users who frequently need batch image resizing and compression for repeated export tasks.</p>
+        <p>It is designed for Windows users who frequently need batch image resizing, compression, and repeatable export rules for listings, uploads, and routine image cleanup.</p>
+        <h3>Where are settings stored?</h3>
+        <p>ImageBatcher stores runtime settings in <code>%APPDATA%/ihapus/ImageBatcher/settings.ini</code> for the current Windows user.</p>
         <h3>Is the source code published here?</h3>
         <p>No. This public repository contains release information and public-facing documentation. Source code is maintained separately.</p>
       </article>
